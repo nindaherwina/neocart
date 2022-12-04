@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"/>
+
+    <item
+        android:id="@+id/nav_report"
+        android:title="Report"
+        android:icon="@drawable/ic_report"/>
+
+    <item
+        android:id="@+id/nav_management"
+        android:title="Management"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"/>
+
+    <item
+        android:id="@+id/nav_voucher"
+        android:title="Discount and Voucher"
+        android:icon="@drawable/ic_discount"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings"/>
+
+    <item android:title="System">
+
+        <menu>
+
+            <item
+                android:id="@+id/help"
+                android:title="Help and Suppoty"
+                android:icon="@drawable/ic_helpsupport"/>
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_arrow_out"/>
+
+        </menu>
+
+    </item>
+
+</menu>
